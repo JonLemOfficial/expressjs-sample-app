@@ -5,7 +5,7 @@
   "private": true,
   "main": "src/index.js",
   "scripts": {
-    "serve": "cd ./src && node app.js 8000"
+    "start": "cd ./src && node app.js 8000"
   },
   "repository": {
     "type": "git",
