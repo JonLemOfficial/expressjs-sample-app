@@ -6,7 +6,7 @@ const server = require("./_server");
 function GET(req, res) {
   res
     .status(200)
-    .render("login", Object.assign({}, {t: doc.t}, {s: server}));
+    .render("register", Object.assign({}, {t: doc.t}, {s: server}));
 }
 
 module.exports = {

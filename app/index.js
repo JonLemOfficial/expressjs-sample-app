@@ -33,8 +33,6 @@ app
     res
       .status(404)
       .sendFile(path.join(ROOT_DIR, "404.html"));
-    console.log(res.dns);
-    
   })
 
 
