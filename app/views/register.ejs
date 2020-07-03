@@ -8,7 +8,7 @@
   <body>
     <h1><%= t.$0003 %></h1>
     <ul>
-      <li><a href="https://myrproducciones.herokuapp.com/"><%= t.$0007 %></a></li>
+      <li><a href="<%= s.is_production ? s.GLOBAL : (s.LOCAL + ':' + s.PORT) %>/"><%= t.$0007 %></a></li>
     </ul>
   </body>
 </html>

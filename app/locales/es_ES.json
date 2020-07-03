@@ -1,7 +1,7 @@
 {
   "t": {
-    "$0000": "Página principal | JonLemOfficial",
-    "$0001": "Esta es la página principal para el sitio web de ejemplo de MYR Producciones",
+    "$0000": "Página principal | Express.js",
+    "$0001": "Esta es la página principal para la aplicación web de ejemplo desarrollada en Express.js",
     "$0002": "Esta es la página de login",
     "$0003": "Esta es la página de registro",
     "$0005": "Login",

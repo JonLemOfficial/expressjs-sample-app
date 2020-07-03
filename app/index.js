@@ -4,7 +4,7 @@ const express = require('express');
 const path = require("path");
 
 // default constants
-const PORT = process.env.PORT || process.argv[2] || 8000;
+const PORT = process.env.PORT || 8000;
 const ROOT_DIR = path.join(__dirname, "..", "public");
 
 // web routes

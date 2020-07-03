@@ -8,8 +8,8 @@
   <body>
     <h1><%= t.$0001 %></h1>
     <ul>
-      <li><a href="https://myrproducciones.herokuapp.com/login"><%= t.$0005 %></a></li>
-      <li><a href="https://myrproducciones.herokuapp.com/register"><%= t.$0006 %></a></li>
+      <li><a href="<%= s.is_production ? s.GLOBAL : (s.LOCAL + ':' + s.PORT) %>/login"><%= t.$0005 %></a></li>
+      <li><a href="<%= s.is_production ? s.GLOBAL : (s.LOCAL + ':' + s.PORT) %>/register"><%= t.$0006 %></a></li>
     </ul>
     <footer>
       <p>Esta aplicación web ha sido desarrollada por Jonathan &quot;JonLem&quot; Lemos - <a href="https://github.com/JonLemOfficial" target="_blank">@JonLemOfficial</a></p>
