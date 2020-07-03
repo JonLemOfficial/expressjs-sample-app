@@ -1,3 +1,5 @@
-User-Agent: *
-Disallow: /main
+# This is the robots.txt file
+
+User-agent: *
 Disallow: /home
+Disallow: /support
